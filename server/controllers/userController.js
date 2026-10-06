@@ -45,7 +45,7 @@ export const signup = async (req,res)=>{
 // Controller to login a user
 export const login = async (req, res) =>{
     try{
-        const {email, password} = req.body; // get their cridentials from the request body(frontend)
+        const {email, password} = req.body; // get their credentials from the request body(frontend)
 
         const userData =  await User.findOne({email}) // looks for the user's email in the database
 
