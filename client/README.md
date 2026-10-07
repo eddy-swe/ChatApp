@@ -1,16 +1,51 @@
-# React + Vite
+# ChatApp Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This is the frontend for ChatApp, a real-time messaging application. The client provides a user-friendly interface for sending and receiving messages.
 
-Currently, two official plugins are available:
+## Tech Stack
+- **React** - UI library for building interactive components
+- **JavaScript/ES6** - Programming language
+- **Tailwind** - Styling
+- **Axios** - HTTP client for API requests
+- **Socket.io** - Real-time communication with the server
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Project Structure
 
-## React Compiler
+```
+client/
+├── src/
+│   ├── components/       # Reusable React components
+│   ├── pages/           # Page components (Chat, Login, etc.)
+│   ├── services/        # API and service calls
+│   ├── styles/          # Global and component styles
+│   ├── utils/           # Utility functions and helpers
+│   ├── App.js           # Main App component
+│   └── index.js         # React entry point
+├── public/              # Static assets and HTML template
+├── package.json         # Dependencies and scripts
+└── README.md           # This file
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
 
-## Expanding the ESLint configuration
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Start the development server:
+   ```bash
+   npm start
+   ```
+
+3. Build for production:
+   ```bash
+   npm run build
+   ```
+
+## Key Features
+- User authentication and login
+- Real-time message sending and receiving
+- Chat history
+- User-friendly message interface
