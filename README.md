@@ -1,6 +1,6 @@
 # ChatApp
 
-A modern real-time chat application built with a separation of concerns between frontend and backend.
+A modern real-time chat application built with Socket.io
 
 ## Live Demo
 You can access the ChatApp live at: [CLICK HERE]()
