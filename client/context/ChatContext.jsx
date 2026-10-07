@@ -2,6 +2,7 @@ import {createContext, useContext, useState, useEffect } from "react";
 import { AuthContext } from "./AuthContext";
 import toast from "react-hot-toast";
 
+/* eslint-disable react-refresh/only-export-components */
 
 export const ChatContext = createContext();
 
@@ -86,7 +87,7 @@ export const ChatProvider = ({children})=>{
         selectedUser,
         setSelectedUser,
         getUsers, 
-        setMessages, 
+        getMessages, 
         sendMessage, 
         unseenMessages,
         setUnseenMessages
