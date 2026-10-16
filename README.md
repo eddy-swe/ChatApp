@@ -3,7 +3,7 @@
 A modern real-time chat application built with Socket.io
 
 ## Live Demo
-You can access the ChatApp live at: [CLICK HERE]()
+You can access the ChatApp live at: [CLICK HERE](https://chat-app-kohl-xi-88.vercel.app/)
 
 ## Project Structure
 
